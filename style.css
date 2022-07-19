@@ -1,0 +1,32 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 20px;
+
+    background-image: linear-gradient(rgba(51, 255, 0, 0.918), rgba(0, 4, 255, 0.781));
+}
+
+h3 {
+    font-size: 2rem;
+    width: 60%;
+    text-align: end;
+    color: rgba(42, 50, 165, 0.938);
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px thick black;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+    height: 300px;
+    width: 400px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
